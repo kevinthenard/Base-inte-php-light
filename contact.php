@@ -1,8 +1,8 @@
-<?php if(isset($_POST["email"])) {
+<?php if(isset($_POST["email"])):
 
-    /* Construction du message pour Ma-musique */
+    /* Construction du message */
     $email_visiteur = $_POST["email"];
-    $to = "contact@norlicom.com";
+    $to = "contact@monsite.com";
 
     $nom = $_POST["nom"];
     $sujet = $_POST["sujet"];
@@ -33,11 +33,11 @@
      
     /* Envoi de l'e-mail */
     mail($to, $sujet, $msg, $headers);
-    }
+endif;
 
 ?>
 <?php include("include/head1.php"); ?>
-        <title>Accueil</title>
+        <title>Contact</title>
 <?php include("include/head2.php"); ?>
         <?php include("include/header.php"); ?>
         <section class="container">
@@ -46,7 +46,7 @@
             </article>
             <article class="col-xs-12 col-sm-8 mt-20">
                 <form class="contact" method="post" action="contact.php">
-                    <h2>Contactez Norlicom </h2>
+                    <h2>Contactez-nous </h2>
                     <div class="display_none">
                         <input type="hidden" value="1" name="contactez_norlicom">
                     </div>

@@ -8,15 +8,15 @@
                 </div>
                 <div class="col-xs-12 col-sm-6">
                     <p class="text-center">Tous droits réservés ®‎</p>
-                    <p class="text-center">S.A.R.L. NORLICOM France</p>
-                    <p class="text-center">11 rue Albert Samain</p>
+                    <p class="text-center">S.A.R.L. </p>
+                    <p class="text-center"></p>
                     <p class="text-center">59000 Lille</p>
-                    <p class="text-center">www.norlicom.com</p>
+                    <p class="text-center">www.monsite.com</p>
                 </div>
             </div>
         </footer>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="assets/js/bt.js"></script>
         <script src="assets/js/main.js"></script>
 

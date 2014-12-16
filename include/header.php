@@ -9,9 +9,8 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="http://norlicom.com">
-                <img src="assets/images/logo.png" alt="Norlicom" title="Norlicom" class="img-responsive" width="200" height="50">
-                <h1 class="hide">Norlicom</h1></a>
-                <p class="small">Commerce mondial</p>
+                <img src="assets/images/logo.png" alt="NOM DU SITE" title="NOM DU SITE" class="img-responsive" width="200" height="50">
+                <h1 class="hide">NOM DU SITE</h1></a>
             </div>
             <nav role="navigation" class="collapse navbar-collapse bs-navbar-collapse">
               <ul class="nav navbar-nav">
